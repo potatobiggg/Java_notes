@@ -1,10 +1,10 @@
 正则表达式需要引入包java.util.regex
 
-![image-20250516194850916](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20250516194850916.png)
+![image-20250516194850916](Java正则.assets/image-20250516194850916.png)
 
 \d 表示整数，在 Java 中用“\\\\"表示"\\"
 
-![image-20250516200717369](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20250516200717369.png)
+![image-20250516200717369](Java正则.assets/image-20250516200717369.png)
 
 \D表示非数字，类似的，`\W`可以匹配`\w`不能匹配的字符，`\S`可以匹配`\s`不能匹配的字符，这几个正好是反着来的。
 
