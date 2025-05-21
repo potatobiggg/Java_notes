@@ -107,3 +107,9 @@ Arrays.sort(a);//数组排序
   **Comparable和Comparator**
   
   两个方法分别是：int compareTo()和int compare()
+
+# Stream流
+
+![image-20250521134955704](Java.assets/image-20250521134955704.png)
+
+![image-20250521135018007](Java.assets/image-20250521135018007.png)
