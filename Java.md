@@ -113,3 +113,6 @@ Arrays.sort(a);//数组排序
 ![image-20250521134955704](Java.assets/image-20250521134955704.png)
 
 ![image-20250521135018007](Java.assets/image-20250521135018007.png)
+
+单列集合才能使用stream();	双列集合不行
+

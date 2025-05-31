@@ -24,6 +24,8 @@ for (Map.Entry<String, Integer> entry : map.entrySet()) {
 
 ![image-20250524191848152](Java刷题常用容器.assets/image-20250524191848152.png)
 
+![image-20250527120937970](Java刷题常用容器.assets/image-20250527120937970.png)
+
 ### Map的常用方法
 
 | 方法                          | 说明                                        | 示例                                                         |
@@ -78,3 +80,35 @@ names.forEach(name -> {
 - 泛型里面不能写基本类型，因为不能转化为``Object``类型
 
 ![image-20250526223635072](Java刷题常用容器.assets/image-20250526223635072.png)
+
+![image-20250527132056358](Java刷题常用容器.assets/image-20250527132056358.png)
+
+![image-20250527184955231](Java刷题常用容器.assets/image-20250527184955231.png)
+
+### Map
+
+![image-20250527193027301](Java刷题常用容器.assets/image-20250527193027301.png)
+
+![image-20250527203941928](Java刷题常用容器.assets/image-20250527203941928.png)
+
+### 遍历``Map``
+
+方法1：用“键的集合”
+
+```java
+Map<String, String> map = Map.of("a", "apple", "b", "banana");
+
+for (String key : map.keySet()) {
+    String value = map.get(key);  // 一次查找
+    System.out.println(key + " -> " + value);
+}
+```
+
+方法2：键值对``entrySet``
+
+```java
+for (Map.Entry<String, String> entry : map.entrySet()) {
+    System.out.println(entry.getKey() + " -> " + entry.getValue());
+}
+```
+
